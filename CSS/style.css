@@ -30,6 +30,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 
@@ -244,6 +245,7 @@ em::after {
   background-color: white;
   cursor: pointer;
   padding: 10% 5% 5% 0%;
+  margin-top: 6%;
   border: none;
 }
 
