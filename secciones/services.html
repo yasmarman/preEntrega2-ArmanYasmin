@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/menu1.css">
     <link rel="icon" href="../assets/favicon.png" type="image/x-icon" />
     <title>YAPO ARQUITECTURA</title>
 </head>
@@ -18,14 +19,25 @@
     <header class="header">
 
         <nav class="header--nav">
-            <ul class="navbar navigation">
-                <a class="navigation--logo" href="../index.html"><img src="../assets/yapo.png" alt="LOGO"></a></li>
-                <li> <a href="../index.html">Home</a></li>
-                <li class="navigation--current"> Services </li>
-                <li> <a href="./about.html">About Us </a> </li>
-                <li> <a href="./portfolio.html">Portfolio</a></li>
-                <li> <a href="./contact.html">Contact</a> </li>
-            </ul>
+            <a href="./secciones/index.html" class="nav-logo"> <img src="../assets/yapo.png" alt="LOGO"></a>
+
+            <div class="menuToggle">
+
+                <input type="checkbox" class="input" />
+                <section class="lineas">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </section>
+
+                <ul class="navbar navigation" id="menu">
+                    <li> <a href="../index.html">Home</a></li>
+                    <li class="navigation--current"> Services </li>
+                    <li> <a href="./about.html">About Us </a> </li>
+                    <li> <a href="./portfolio.html">Portfolio</a></li>
+                    <li> <a href="./contact.html">Contact</a> </li>
+                </ul>
+            </div>
         </nav>
 
 
