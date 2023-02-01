@@ -8,6 +8,7 @@
     <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="../menu-hamburguesa/menu1.css">
     <title>YAPO ARQUITECTURA</title>
 </head>
 
@@ -15,6 +16,35 @@
     <!--NAVEGADOR-------------------------------------------------------->
     <header class="header">
 
+
+        <nav class="header--nav">
+            <a href="./secciones/index.html" class="nav-logo"> <img src="../assets/yapo.png" alt="LOGO"></a>
+           
+
+            <div id="menuToggle">             
+
+                <input type="checkbox" class="input" />
+                <section class="lineas">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </section>
+                
+                <ul class="navbar navigation" id="menu">
+                    <li class="navigation--current">Home</li>
+                    <li> <a href="./secciones/services.html">Services</a> </li>
+                    <li> <a href="./secciones/about.html">About Us </a> </li>
+                    <li> <a href="./secciones/portfolio.html">Portfolio</a></li>
+                    <li> <a href="./secciones/contact.html">Contact</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        
+
+
+        <!-- 
         <nav class="header--nav">
             <ul class="navbar navigation">
                 <a class="navigation--logo" href="./index.html"><img src="./assets/yapo.png" alt="LOGO"></a></li>
@@ -24,7 +54,7 @@
                 <li> <a href="./secciones/portfolio.html">Portfolio</a></li>
                 <li> <a href="./secciones/contact.html">Contact</a> </li>
             </ul>
-        </nav>
+        </nav> -->
 
 
     </header>
@@ -46,11 +76,13 @@
         </div>
         <div class="encabezado__img--small"> </div>
         <button class="btn--doble">
-            <a href="./secciones/portfolio.html"> <p>OUR WORK</p></a>
+            <a href="./secciones/portfolio.html">
+                <p>OUR WORK</p>
+            </a>
         </button>
         <button class="btn--dobleNegro">
             <div class="img-button">
-              <a href="./secciones/portfolio.html">  <img src="./assets/flecha.png"></a>
+                <a href="./secciones/portfolio.html"> <img src="./assets/flecha.png"></a>
             </div>
         </button>
 
@@ -121,11 +153,11 @@
                 <h3> Quick links</h3>
                 <nav class="footer__nav">
                     <ul class="footer__nav--quickLink">
-                        <li> <a href="#">Home</a></li>
-                        <li> <a href="#">Services</a> </li>
-                        <li> <a href="#">About Us </a></li>
-                        <li> <a href="#">Portfolio</a> </li>
-                        <li> <a href="#">Contact</a> </li>
+                        <li class="footer-links"> <a href="#">Home</a></li>
+                        <li class="footer-links"> <a href="#">Services</a> </li>
+                        <li class="footer-links"> <a href="#">About Us </a></li>
+                        <li class="footer-links"> <a href="#">Portfolio</a> </li>
+                        <li class="footer-links"> <a href="#">Contact</a> </li>
                     </ul>
                 </nav>
             </div>
